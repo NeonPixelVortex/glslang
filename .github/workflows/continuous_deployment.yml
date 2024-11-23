@@ -31,6 +31,7 @@ permissions: read-all
 
 jobs:
     linux:
+        if: ${{ github.repository == 'KhronosGroup/glslang' }}
         runs-on: ${{matrix.os.genus}}
         permissions:
             contents: write
@@ -94,6 +95,7 @@ jobs:
                       await script({github, context, core})
 
     macos:
+        if: ${{ github.repository == 'KhronosGroup/glslang' }}
         runs-on: ${{matrix.os.genus}}
         permissions:
             contents: write
@@ -151,6 +153,7 @@ jobs:
                       await script({github, context, core})
 
     windows:
+        if: ${{ github.repository == 'KhronosGroup/glslang' }}
         runs-on: ${{matrix.os.genus}}
         permissions:
             contents: write
