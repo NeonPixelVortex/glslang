@@ -1,3 +1,5 @@
+#### ⚠️ This fork is automatically synchronized with the upstream repository periodically. See our [sync workflow documentation](.github/docs/sync.yml.md) for more details.
+
 ![Continuous Integration](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_integration.yml/badge.svg)
 ![Continuous Deployment](https://github.com/KhronosGroup/glslang/actions/workflows/continuous_deployment.yml/badge.svg)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/KhronosGroup/glslang/badge)](https://securityscorecards.dev/viewer/?uri=github.com/KhronosGroup/glslang)
